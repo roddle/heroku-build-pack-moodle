@@ -25,7 +25,8 @@ The config files are bundled with the buildpack itself:
 
 Configure Heroku to use this buildpack repo AND branch
 
-    $ heroku config:set BUILDPACK_URL=git://github.com/roddle/heroku-buildpack-php.git#mpm-event-php55-fpm
+    $ heroku config:set BUILDPACK_URL=git://github.com/roddle/heroku-build-pack-moodle.git#mpm-event-php55-fpm
+                                        
 
 This buildpack also supports custom Document Roots in your application. Simply add an environment variable. If your document root is public in the root of your repo, then run
     
